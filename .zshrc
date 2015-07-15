@@ -80,6 +80,7 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias cls='clear'
 alias hugs='hugs -Evim'
+alias tmux="tmux -2"
 
 #programs
 alias stardict='stardict -h'
