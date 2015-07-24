@@ -16,6 +16,15 @@ set showmode
 set showmatch
 set spelllang=en,de
 
+" visual line breaks
+set breakindent
+set nolist
+set textwidth=0
+set wrapmargin=0
+set wrap
+set lbr
+set formatoptions-=t
+
 " wildmenu
 if has("wildmenu")
 	set wildmenu
@@ -66,8 +75,4 @@ let g:neocomplete#enable_at_startup = 1
 " molokai theme
 let g:molokai_original = 1
 let g:rehash256 = 1
-
-"sharelatex 
-let g:sharelatex_email = 'schilling@tuhh.de'
-let g:sharelatex_password = 'hallopups'
 
