@@ -71,6 +71,11 @@ let g:go_highlight_structs = 1
 
 " neocomplete
 let g:neocomplete#enable_at_startup = 1 
+let g:neocomplete#enable_smart_case = 1
+if !exists('g:neocomplete#sources#omni#input_patterns')
+  let g:neocomplete#sources#omni#input_patterns = {}
+ endif
+
 
 " molokai theme
 let g:molokai_original = 1
